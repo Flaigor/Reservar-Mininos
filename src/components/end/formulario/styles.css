@@ -1,0 +1,44 @@
+.formulario-itens{
+    display: flex;
+}
+
+.formulario-itens Strong{
+    width: 35%;
+    height: 200px;
+}
+
+Strong input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /*border-radius: 5px;*/
+}
+
+.formulario-itens button{
+    width: 30%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #ffff00;
+    border: 1px solid black;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.formulario-itens button:hover{
+    opacity: 0.5;
+}
+
+.formulario-contato{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.formulario-contato img{
+    width: 40px;
+    height: 40px;
+}
