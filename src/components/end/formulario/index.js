@@ -25,13 +25,13 @@ export default class Formulario extends Component {
                 <strong>
                     <p>Complemento: </p>
                     <input name="complemento" type="text" id="complemento" />
-                    <p>Numero: </p>
+                    <p>Número: </p>
                     <input name="numero" type="text" id="numero" />
                     <p>Nome: </p>
                     <input name="nome" type="text" id="nome" />
                     <p>Telefone: </p>
                     <input name="telefone" type="text" id="telefone" />
-                    <p>Email: </p>
+                    <p>E-mail: </p>
                     <input name="email" type="text" id="email" />
                     <br />
                     <button onClick={this.cadastro}>Reservar!</button>
@@ -44,13 +44,6 @@ export default class Formulario extends Component {
                         <img src='https://www.aner.org.br/v2/wp-content/uploads/2018/10/telefone.png' />(XX)XXXXX-XXXX
                         <br />
                         <img src='https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454735_960_720.png'/>email@email.com.br
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <p>Feito por Igor Huayck Gonçalves</p>
                     </div> 
                 </strong>
             </div>
